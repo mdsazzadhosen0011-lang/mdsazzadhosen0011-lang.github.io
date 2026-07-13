@@ -300,7 +300,11 @@ footer { padding: 25px 0; background: var(--ink); color: #9ea5a7; border-top: 1p
   }
 
   .container {
-    width: min(calc(100% - 40px), var(--max));
+    width: 100%;
+    max-width: var(--max);
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .site-header {
