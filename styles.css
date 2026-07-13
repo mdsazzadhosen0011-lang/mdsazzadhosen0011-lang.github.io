@@ -246,3 +246,18 @@ footer { padding: 25px 0; background: var(--ink); color: #9ea5a7; border-top: 1p
     margin-top: 38px;
   }
 }
+
+
+@media (min-width: 1121px) {
+  .hero-photo {
+    width: 300px;
+  }
+
+  .hero-photo .profile-photo {
+    width: 300px;
+    max-width: none;
+    height: 375px;
+    object-fit: cover;
+    object-position: center top;
+  }
+}
